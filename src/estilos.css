@@ -1,0 +1,86 @@
+header{
+    display: flex;
+    height: 60px;
+    background-color: #252525;
+    align-items: center;
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;  
+}
+
+.buscar{
+    display: flex; 
+    align-items: center;
+    position: absolute;
+    left: 400px;
+    height: 40px;
+    width: 490px;
+    background: rgb(252, 252, 252);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-bar{
+    border: none;
+    background: none;
+    outline: none;
+    color: grey;
+    font-size: 1em;
+    float: left;
+    line-height: 60px;
+    width: 450px;
+}
+
+.btn{
+    right: 700px;
+}
+
+::placeholder{
+    color: rgb(94, 94, 94);
+}
+
+.boton{
+    width: 20px;
+    height: 25px;
+    text-decoration: none;
+    color: rgb(231, 112, 68);
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    right: 700px;
+}
+.este{
+    border: none;
+    margin: 1100px;
+    background: none;
+    color: rgb(248, 248, 248);
+    font-size: 1rem;
+    right: 700px;
+}
+
+.container1 {
+    left: 800px;
+}
+
+.cont-boton button:hover{
+    color: rgb(231, 112, 68);
+    left: 800px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+
+
+
